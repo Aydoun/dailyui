@@ -1,9 +1,7 @@
 import React from 'react';
 
-function App() {
+export const App: React.FC = () => {
   return (
-    <div>Hello Portfolio</div>
-  );
-}
-
-export default App;
+    <div>My Portfolio</div>
+  )
+} 
